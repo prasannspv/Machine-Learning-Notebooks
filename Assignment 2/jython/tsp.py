@@ -3,38 +3,29 @@ sys.path.append("ABAGAIL.jar")
 import java.util.Random as Random
 
 import dist.DiscreteDependencyTree as DiscreteDependencyTree
-import dist.DiscreteUniformDistribution as DiscreteUniformDistribution
-import opt.DiscreteChangeOneNeighbor as DiscreteChangeOneNeighbor
 import opt.GenericHillClimbingProblem as GenericHillClimbingProblem
 import opt.RandomizedHillClimbing as RandomizedHillClimbing
 import opt.SimulatedAnnealing as SimulatedAnnealing
-import opt.ga.DiscreteChangeOneMutation as DiscreteChangeOneMutation
 import opt.ga.GenericGeneticAlgorithmProblem as GenericGeneticAlgorithmProblem
 import opt.ga.StandardGeneticAlgorithm as StandardGeneticAlgorithm
-import opt.ga.UniformCrossOver as UniformCrossOver
 import opt.prob.GenericProbabilisticOptimizationProblem as GenericProbabilisticOptimizationProblem
 import opt.prob.MIMIC as MIMIC
 import shared.FixedIterationTrainer as FixedIterationTrainer
-import opt.example.KnapsackEvaluationFunction as KnapsackEvaluationFunction
+import dist.DiscretePermutationDistribution as DiscretePermutationDistribution
 from array import array
+import opt.example.TravelingSalesmanRouteEvaluationFunction as TravelingSalesmanRouteEvaluationFunction
+import opt.SwapNeighbor as SwapNeighbor
+import opt.ga.SwapMutation as SwapMutation
+import opt.example.TravelingSalesmanCrossOver as TravelingSalesmanCrossOver
 import time
 import csv
 
-max_wv = 50
-duplicates = 4
 random = Random()
-weights = []
-volumes = []
-nos = 40
-knapsack_vol = max_wv * nos * duplicates * 0.4
-for i in range(nos):
-    weights.append(random.nextDouble() * max_wv)
-    volumes.append(random.nextDouble() * max_wv)
-weights = array('d', weights)
-volumes = array('d', volumes)
+N = 20
 
-copies = array('i', [duplicates] * nos)
-ranges = array('i', [duplicates + 1] * nos)
+points = []
+for i in range(N):
+    points.append([random.nextDouble(), random.nextDouble()])
 
 num_iterations = [1000*i for i in range(100)]
 data = []
@@ -42,48 +33,49 @@ data = []
 for iterations in num_iterations:
     print("Iterations - {}".format(iterations))
     record = [iterations]
-    knapsack = KnapsackEvaluationFunction(weights, volumes, knapsack_vol, copies)
+    tsp = TravelingSalesmanRouteEvaluationFunction(points)
 
-    unif = DiscreteUniformDistribution(ranges)
-    neighbor = DiscreteChangeOneNeighbor(ranges)
-    hcp = GenericHillClimbingProblem(knapsack, unif, neighbor)
+    perm = DiscretePermutationDistribution(N)
+    neighbor = SwapNeighbor()
+    hcp = GenericHillClimbingProblem(tsp, perm, neighbor)
     rhc = RandomizedHillClimbing(hcp)
     model = FixedIterationTrainer(rhc, iterations)
     tick = time.time()
     model.train()
     toc = time.time()
-    record.append(knapsack.value(rhc.getOptimal()))
+    record.append(tsp.value(rhc.getOptimal()))
     record.append(toc - tick)
 
-    sa = SimulatedAnnealing(1e10, 0.95, hcp)
+    sa = SimulatedAnnealing(1e10, 0.999, hcp)
     model = FixedIterationTrainer(sa, iterations)
     tick = time.time()
     model.train()
     toc = time.time()
-    record.append(knapsack.value(sa.getOptimal()))
+    record.append(tsp.value(sa.getOptimal()))
     record.append(toc - tick)
 
-    mutation = DiscreteChangeOneMutation(ranges)
-    unix = UniformCrossOver()
-    ggap = GenericGeneticAlgorithmProblem(knapsack, unif, mutation, unix)
+    mutation = SwapMutation()
+    tspx = TravelingSalesmanCrossOver(tsp)
+    ggap = GenericGeneticAlgorithmProblem(tsp, perm, mutation, tspx)
     ga = StandardGeneticAlgorithm(200, 150, 25, ggap)
     model = FixedIterationTrainer(ga, iterations)
     model.train()
     toc = time.time()
-    record.append(knapsack.value(sa.getOptimal()))
+    record.append(tsp.value(ga.getOptimal()))
     record.append(toc - tick)
 
+    ranges = array('i', [N]*N)
     tree = DiscreteDependencyTree(0.1, ranges)
-    gpop = GenericProbabilisticOptimizationProblem(knapsack, unif, tree)
+    gpop = GenericProbabilisticOptimizationProblem(tsp, perm, tree)
     mimic = MIMIC(200, 100, gpop)
     model = FixedIterationTrainer(mimic, iterations)
     model.train()
     toc = time.time()
-    record.append(knapsack.value(sa.getOptimal()))
+    record.append(tsp.value(mimic.getOptimal()))
     record.append(toc - tick)
 
     data.append(record)
 
-with open("knapsack.csv", "w+") as f:
+with open("tsp.csv", "w+") as f:
     writer = csv.writer(f)
     writer.writerows(data)
