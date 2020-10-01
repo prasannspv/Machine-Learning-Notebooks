@@ -21,7 +21,7 @@ import time
 import csv
 
 random = Random()
-N = 50
+N = 20
 
 points = []
 for i in range(N):

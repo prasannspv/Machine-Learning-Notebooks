@@ -16,6 +16,8 @@
           <option value="tsp.dist" />
           <option value="tsp.opt" />
           <option value="tsp.shared" />
+          <option value="continuouspeaks.java" />
+          <option value="continuouspeaks.*" />
         </list>
       </option>
     </inspection_tool>
