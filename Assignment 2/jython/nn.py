@@ -7,10 +7,10 @@ from opt.example import NeuralNetworkOptimizationProblem
 from func.nn.backprop import BackPropagationNetworkFactory
 from shared import Instance
 from shared import DataSet
-from shared import SumOfSquaredError
+from shared import SumOfSquaresError
 from opt import RandomizedHillClimbing
 from opt import SimulatedAnnealing
-from opt import StandardGeneticAlgorithm
+from opt.ga import StandardGeneticAlgorithm
 
 
 def train(algo_inst, nn, data):
@@ -36,7 +36,7 @@ def train(algo_inst, nn, data):
             actual = nn.getOutputValues()
 
             example = Instance(actual, Instance(actual.get(0)))
-            sse += SumOfSquaredError().value(expected, example)
+            sse += SumOfSquaresError().value(expected, example)
 
         accuracy = accurate/len(data)
         results.append([i, toc-tick, accuracy, sse])
@@ -48,13 +48,34 @@ def get_data():
     with open("phishing.csv") as f:
         reader = csv.reader(f)
         for row in reader:
+            datum = Instance([int(val) for val in row[:-1]])
             datum.setLabel(Instance(0 if int(row[-1]) == -1 else 1))
-            datum = Instance([int(val) for val in row[1:-1]])
             data.append(datum)
 
     return data
 
-if __name__ == "__main__":
+
+def genetic_algo(data, pop=200, to_mate=100, to_mutate=50):
     factory = BackPropagationNetworkFactory()
+    nn = factory.createClassificationNetwork([30, 100, 2])
+    problem = NeuralNetworkOptimizationProblem(DataSet(data), nn, SumOfSquaresError())
+    ga = StandardGeneticAlgorithm(pop, to_mate, to_mutate, problem)
+    results = train(ga, nn, data)
+    with open("GA-{}-{}-{}.csv".format(pop, to_mate, to_mutate), "w+") as f:
+        csv.writer(f).writerows(results)
+
+
+def run_genetic_algorithm_exp():
     data = get_data()
+    population = [10, 50, 100, 200, 500]
+    to_mate = [50, 100, 150, 200]
+    to_mutate = [25, 50, 100, 200]
+
+    # Perform population experiments
+    for pop in population:
+        genetic_algo(data, pop = pop)
+
+
+if __name__ == "__main__":
+    run_genetic_algorithm_exp()
 
