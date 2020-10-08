@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import csv
+import random
 
 
 def plot(problem):
@@ -51,6 +52,6 @@ def plot(problem):
 
 
 
-plot("knapsack")
+# plot("knapsack")
 # plot("tsp")
-# plot("cp")
+plot("cp")
