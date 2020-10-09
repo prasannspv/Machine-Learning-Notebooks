@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import csv
-import random
 
 
 def plot(problem):
