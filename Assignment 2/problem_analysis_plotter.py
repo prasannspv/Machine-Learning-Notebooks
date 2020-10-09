@@ -55,7 +55,12 @@ def plotter(problem):
     plt.legend(loc = "best")
     plt.savefig(f"img/{problem}_MIMIC.png")
 
+def comparison_plot(problem, details):
+    pass
+
 
 # plotter("cp")
 # plotter("tsp")
-plotter("knapsack")
+# plotter("knapsack")
+
+# comparison_plot("cp", [("to_mate=100, to_mutate=25", 3), ()])

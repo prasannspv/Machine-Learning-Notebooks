@@ -56,8 +56,9 @@ def performance_comparison():
         mutation = DiscreteChangeOneMutation(ranges)
         unix = SingleCrossOver()
         ggap = GenericGeneticAlgorithmProblem(cp, unif, mutation, unix)
-        ga = StandardGeneticAlgorithm(200, 150, 25, ggap)
+        ga = StandardGeneticAlgorithm(200, 100, 25, ggap)
         model = FixedIterationTrainer(ga, iterations)
+        tick = time.time()
         model.train()
         toc = time.time()
         record.append(cp.value(ga.getOptimal()))
@@ -65,15 +66,16 @@ def performance_comparison():
 
         tree = DiscreteDependencyTree(0.1, ranges)
         gpop = GenericProbabilisticOptimizationProblem(cp, unif, tree)
-        mimic = MIMIC(200, 100, gpop)
+        mimic = MIMIC(200, 50, gpop)
         model = FixedIterationTrainer(mimic, iterations)
+        tick = time.time()
         model.train()
         toc = time.time()
         record.append(cp.value(mimic.getOptimal()))
         record.append(toc - tick)
 
         data.append(record)
-    with open("cp.csv", "w+") as f:
+    with open("data/cp.csv", "w+") as f:
         writer = csv.writer(f)
         writer.writerows(data)
 
@@ -145,7 +147,7 @@ def ga_analysis():
         writer.writerows(records)
 
 
-ga_analysis()
-sa_analysis()
-mimic_analysis()
-# performance_comparison()
+# ga_analysis()
+# sa_analysis()
+# mimic_analysis()
+performance_comparison()

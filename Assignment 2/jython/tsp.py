@@ -49,7 +49,7 @@ def perform_comparsion():
         record.append(tsp.value(rhc.getOptimal()))
         record.append(toc - tick)
 
-        sa = SimulatedAnnealing(1e10, 0.999, hcp)
+        sa = SimulatedAnnealing(1e10, 0.5, hcp)
         model = FixedIterationTrainer(sa, iterations)
         tick = time.time()
         model.train()
@@ -60,8 +60,9 @@ def perform_comparsion():
         mutation = SwapMutation()
         tspx = TravelingSalesmanCrossOver(tsp)
         ggap = GenericGeneticAlgorithmProblem(tsp, perm, mutation, tspx)
-        ga = StandardGeneticAlgorithm(200, 150, 25, ggap)
+        ga = StandardGeneticAlgorithm(200, 100, 25, ggap)
         model = FixedIterationTrainer(ga, iterations)
+        tick = time.time()
         model.train()
         toc = time.time()
         record.append(tsp.value(ga.getOptimal()))
@@ -70,15 +71,16 @@ def perform_comparsion():
         ranges = array('i', [N] * N)
         tree = DiscreteDependencyTree(0.1, ranges)
         gpop = GenericProbabilisticOptimizationProblem(tsp, perm, tree)
-        mimic = MIMIC(200, 100, gpop)
+        mimic = MIMIC(200, 25, gpop)
         model = FixedIterationTrainer(mimic, iterations)
+        tick = time.time()
         model.train()
         toc = time.time()
         record.append(tsp.value(mimic.getOptimal()))
         record.append(toc - tick)
 
         data.append(record)
-    with open("tsp.csv", "w+") as f:
+    with open("data/tsp.csv", "w+") as f:
         writer = csv.writer(f)
         writer.writerows(data)
 
@@ -155,7 +157,8 @@ def ga_analysis():
         writer = csv.writer(f)
         writer.writerows(records)
 
-ga_analysis()
-sa_analysis()
-mimic_analysis()
-# perform_comparsion()
+# ga_analysis()
+# sa_analysis()
+# mimic_analysis()
+# rhc_analysis()
+perform_comparsion()

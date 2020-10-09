@@ -58,7 +58,7 @@ def perform_analysis():
         record.append(knapsack.value(rhc.getOptimal()))
         record.append(toc - tick)
 
-        sa = SimulatedAnnealing(1e10, 0.95, hcp)
+        sa = SimulatedAnnealing(1e10, 0.99, hcp)
         model = FixedIterationTrainer(sa, iterations)
         tick = time.time()
         model.train()
@@ -69,8 +69,9 @@ def perform_analysis():
         mutation = DiscreteChangeOneMutation(ranges)
         unix = UniformCrossOver()
         ggap = GenericGeneticAlgorithmProblem(knapsack, unif, mutation, unix)
-        ga = StandardGeneticAlgorithm(200, 150, 25, ggap)
+        ga = StandardGeneticAlgorithm(200, 50, 25, ggap)
         model = FixedIterationTrainer(ga, iterations)
+        tick = time.time()
         model.train()
         toc = time.time()
         record.append(knapsack.value(ga.getOptimal()))
@@ -80,13 +81,14 @@ def perform_analysis():
         gpop = GenericProbabilisticOptimizationProblem(knapsack, unif, tree)
         mimic = MIMIC(200, 100, gpop)
         model = FixedIterationTrainer(mimic, iterations)
+        tick = time.time()
         model.train()
         toc = time.time()
         record.append(knapsack.value(mimic.getOptimal()))
         record.append(toc - tick)
 
         data.append(record)
-    with open("knapsack.csv", "w+") as f:
+    with open("data/knapsack.csv", "w+") as f:
         writer = csv.writer(f)
         writer.writerows(data)
 
@@ -161,5 +163,5 @@ def ga_analysis():
 
 # ga_analysis()
 # sa_analysis()
-mimic_analysis()
-# perform_analysis()
+# mimic_analysis()
+perform_analysis()

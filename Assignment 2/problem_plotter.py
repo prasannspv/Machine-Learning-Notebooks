@@ -1,11 +1,10 @@
 import matplotlib.pyplot as plt
 import csv
 
-
 def plot(problem):
     fig, ax = plt.subplots()
     ax.set_xlabel("Iterations")
-    ax.set_ylabel("Fitness function")
+    ax.set_ylabel("Fitness")
     x = []
 
     ga = []
@@ -17,7 +16,8 @@ def plot(problem):
     sa_t = []
     rhc_t = []
     mimic_t = []
-    with open("jython/{}.csv".format(problem)) as f:
+    records = []
+    with open("jython/data/{}.csv".format(problem)) as f:
         reader = csv.reader(f)
         for row in reader:
             x.append(float(row[0]))
@@ -29,7 +29,7 @@ def plot(problem):
             ga_t.append(float(row[6]))
             mimic.append(float(row[7]))
             mimic_t.append(float(row[8]))
-
+            records.append(row)
     ax.plot(x, rhc, label="RHC")
     ax.plot(x, ga, label="GA")
     ax.plot(x, mimic, label="MIMIC")
@@ -50,7 +50,6 @@ def plot(problem):
     plt.savefig("img/{}-time.png".format(problem))
 
 
-
-# plot("knapsack")
-# plot("tsp")
+plot("knapsack")
+plot("tsp")
 plot("cp")
