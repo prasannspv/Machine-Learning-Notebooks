@@ -9,10 +9,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/Assignment 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Assignment 2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jython/continuouspeaks.py" beforeDir="false" afterPath="$PROJECT_DIR$/jython/continuouspeaks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jython/cp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/jython/cp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jython/knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/jython/knapsack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jython/tsp.py" beforeDir="false" afterPath="$PROJECT_DIR$/jython/tsp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_analysis_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_analysis_plotter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,19 +34,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jython/knapsack.py">
+        <entry file="file://$PROJECT_DIR$/problem_plotter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+            <state relative-caret-position="105">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jython/data/cp_GA.csv">
+        <entry file="file://$PROJECT_DIR$/jython/data/cp_SA.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="1713">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problem_analysis_plotter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/cp_MIMIC.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/knapsack.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/cp_SA.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/cp_GA.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/RL/Lib/site-packages/matplotlib/axes/_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="390" selection-start-line="390" selection-end-line="390" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jython/continuouspeaks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="82" column="26" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -59,69 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2081">
               <caret line="100" selection-start-line="100" selection-end-line="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jython/data/cp_SA.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2081">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jython/data/knapsack_GA.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4118">
-              <caret line="99" column="116" selection-start-line="99" selection-start-column="116" selection-end-line="99" selection-end-column="116" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jython/data/knapsack_MIMIC.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2081">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jython/data/knapsack_SA.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2081">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jython/data/tsp_GA.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4118">
-              <caret line="99" column="122" selection-start-line="99" selection-start-column="122" selection-end-line="99" selection-end-column="122" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jython/data/tsp_MIMIC.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2081">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jython/data/tsp_SA.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -153,12 +140,15 @@
       <find>CrossOver</find>
       <find>cp_</find>
       <find>^\n</find>
+      <find>{problem}</find>
+      <find>x</find>
     </findStrings>
     <replaceStrings>
       <replace>))</replace>
       <replace>float(</replace>
       <replace>tsp_</replace>
       <replace>knapsack_</replace>
+      <replace>img/{problem}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -181,6 +171,7 @@
         <option value="$PROJECT_DIR$/jython/data/tsp_GA.csv" />
         <option value="$PROJECT_DIR$/jython/data/tsp_MIMIC.csv" />
         <option value="$PROJECT_DIR$/jython/data/tsp_SA.csv" />
+        <option value="$PROJECT_DIR$/problem_analysis_plotter.py" />
       </list>
     </option>
   </component>
@@ -223,12 +214,6 @@
               <item name="Assignment 2" type="462c0819:PsiDirectoryNode" />
               <item name="jython" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Assignment 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment 2" type="462c0819:PsiDirectoryNode" />
-              <item name="jython" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.knapsack">
+  <component name="RunManager" selected="Python.problem_analysis_plotter">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -324,7 +309,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nn_plotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="problem_analysis_plotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assignment 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,7 +322,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nn_plotter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_analysis_plotter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem_analysis_plotter" />
         <item itemvalue="Python.knapsack" />
         <item itemvalue="Python.tsp (1)" />
         <item itemvalue="Python.continuouspeaks" />
         <item itemvalue="Python.problem_plotter" />
-        <item itemvalue="Python.nn_plotter" />
       </list>
     </recent_temporary>
   </component>
@@ -418,23 +403,23 @@
       <workItem from="1601636519518" duration="212000" />
       <workItem from="1601636754511" duration="1801000" />
       <workItem from="1601721872921" duration="1887000" />
-      <workItem from="1602093706586" duration="6904000" />
+      <workItem from="1602093706586" duration="8281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8791000" />
+    <option name="totallyTimeSpent" value="10168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,7 +428,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -523,6 +508,7 @@
     <SUITE FILE_PATH="coverage/Assignment_2$nn_plotter.coverage" NAME="nn_plotter Coverage Results" MODIFIED="1601653727989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Assignment_2$knapsack__1_.coverage" NAME="knapsack (1) Coverage Results" MODIFIED="1601577529281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jython" />
     <SUITE FILE_PATH="coverage/Assignment_2$continuouspeaks__1_.coverage" NAME="continuouspeaks (1) Coverage Results" MODIFIED="1601569456369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jython" />
+    <SUITE FILE_PATH="coverage/Assignment_2$problem_analysis_plotter.coverage" NAME="problem_analysis_plotter Coverage Results" MODIFIED="1602255782859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -580,25 +566,8 @@
     <entry file="file://$PROJECT_DIR$/img/cp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/problem_plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-473">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jython/cp_GA.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jython/continuouspeaks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="146" selection-start-line="79" selection-end-line="146" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jython/tsp.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -628,20 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jython/data/cp_MIMIC.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2081">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jython/data/cp_SA.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2081">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
@@ -682,8 +637,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jython/data/tsp_SA.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="-1714">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jython/data/cp_MIMIC.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2081">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jython/data/cp_SA.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1713">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jython/continuouspeaks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/RL/Lib/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="390" selection-start-line="390" selection-end-line="390" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem_plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cp_GA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cp_MIMIC.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/knapsack.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cp_SA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem_analysis_plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
