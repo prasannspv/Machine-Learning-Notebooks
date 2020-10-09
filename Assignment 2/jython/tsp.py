@@ -27,55 +27,135 @@ points = []
 for i in range(N):
     points.append([random.nextDouble(), random.nextDouble()])
 
-num_iterations = [1000*i for i in range(100)]
-data = []
-# No piecewise evaluation function. Run the algorithms for a range of iterations.
-for iterations in num_iterations:
-    print("Iterations - {}".format(iterations))
-    record = [iterations]
-    tsp = TravelingSalesmanRouteEvaluationFunction(points)
+num_iterations = [200*i for i in range(100)]
 
-    perm = DiscretePermutationDistribution(N)
-    neighbor = SwapNeighbor()
-    hcp = GenericHillClimbingProblem(tsp, perm, neighbor)
-    rhc = RandomizedHillClimbing(hcp)
-    model = FixedIterationTrainer(rhc, iterations)
-    tick = time.time()
-    model.train()
-    toc = time.time()
-    record.append(tsp.value(rhc.getOptimal()))
-    record.append(toc - tick)
 
-    sa = SimulatedAnnealing(1e10, 0.999, hcp)
-    model = FixedIterationTrainer(sa, iterations)
-    tick = time.time()
-    model.train()
-    toc = time.time()
-    record.append(tsp.value(sa.getOptimal()))
-    record.append(toc - tick)
+def perform_comparsion():
+    data = []
+    # No piecewise evaluation function. Run the algorithms for a range of iterations.
+    for iterations in num_iterations:
+        print("Iterations - {}".format(iterations))
+        record = [iterations]
+        tsp = TravelingSalesmanRouteEvaluationFunction(points)
 
-    mutation = SwapMutation()
-    tspx = TravelingSalesmanCrossOver(tsp)
-    ggap = GenericGeneticAlgorithmProblem(tsp, perm, mutation, tspx)
-    ga = StandardGeneticAlgorithm(200, 150, 25, ggap)
-    model = FixedIterationTrainer(ga, iterations)
-    model.train()
-    toc = time.time()
-    record.append(tsp.value(ga.getOptimal()))
-    record.append(toc - tick)
+        perm = DiscretePermutationDistribution(N)
+        neighbor = SwapNeighbor()
+        hcp = GenericHillClimbingProblem(tsp, perm, neighbor)
+        rhc = RandomizedHillClimbing(hcp)
+        model = FixedIterationTrainer(rhc, iterations)
+        tick = time.time()
+        model.train()
+        toc = time.time()
+        record.append(tsp.value(rhc.getOptimal()))
+        record.append(toc - tick)
 
-    ranges = array('i', [N]*N)
-    tree = DiscreteDependencyTree(0.1, ranges)
-    gpop = GenericProbabilisticOptimizationProblem(tsp, perm, tree)
-    mimic = MIMIC(200, 100, gpop)
-    model = FixedIterationTrainer(mimic, iterations)
-    model.train()
-    toc = time.time()
-    record.append(tsp.value(mimic.getOptimal()))
-    record.append(toc - tick)
+        sa = SimulatedAnnealing(1e10, 0.999, hcp)
+        model = FixedIterationTrainer(sa, iterations)
+        tick = time.time()
+        model.train()
+        toc = time.time()
+        record.append(tsp.value(sa.getOptimal()))
+        record.append(toc - tick)
 
-    data.append(record)
+        mutation = SwapMutation()
+        tspx = TravelingSalesmanCrossOver(tsp)
+        ggap = GenericGeneticAlgorithmProblem(tsp, perm, mutation, tspx)
+        ga = StandardGeneticAlgorithm(200, 150, 25, ggap)
+        model = FixedIterationTrainer(ga, iterations)
+        model.train()
+        toc = time.time()
+        record.append(tsp.value(ga.getOptimal()))
+        record.append(toc - tick)
 
-with open("tsp.csv", "w+") as f:
-    writer = csv.writer(f)
-    writer.writerows(data)
+        ranges = array('i', [N] * N)
+        tree = DiscreteDependencyTree(0.1, ranges)
+        gpop = GenericProbabilisticOptimizationProblem(tsp, perm, tree)
+        mimic = MIMIC(200, 100, gpop)
+        model = FixedIterationTrainer(mimic, iterations)
+        model.train()
+        toc = time.time()
+        record.append(tsp.value(mimic.getOptimal()))
+        record.append(toc - tick)
+
+        data.append(record)
+    with open("tsp.csv", "w+") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+
+
+def mimic_analysis():
+    print("MIMIC")
+    params = [25, 50, 100]
+    records = []
+    for iterations in num_iterations:
+        print("Iteration: ", iterations)
+        record = [iterations]
+        tsp = TravelingSalesmanRouteEvaluationFunction(points)
+        perm = DiscretePermutationDistribution(N)
+        for toKeep in params:
+            ranges = array('i', [N] * N)
+            tree = DiscreteDependencyTree(0.1, ranges)
+            gpop = GenericProbabilisticOptimizationProblem(tsp, perm, tree)
+            mimic = MIMIC(200, toKeep, gpop)
+            model = FixedIterationTrainer(mimic, iterations)
+            model.train()
+            record.append(tsp.value(mimic.getOptimal()))
+        records.append(record)
+    with open("data/tsp_MIMIC.csv", "w+") as f:
+        writer = csv.writer(f)
+        writer.writerows(records)
+
+
+def sa_analysis():
+    print("SA")
+    params = [0.99, 0.95, 0.75, 0.5]
+    records = []
+
+    for iterations in num_iterations:
+        print("Iteration: ", iterations)
+        record = [iterations]
+        tsp = TravelingSalesmanRouteEvaluationFunction(points)
+        perm = DiscretePermutationDistribution(N)
+        for decay in params:
+            neighbor = SwapNeighbor()
+            hcp = GenericHillClimbingProblem(tsp, perm, neighbor)
+            sa = SimulatedAnnealing(1e10, decay, hcp)
+            model = FixedIterationTrainer(sa, iterations)
+            tick = time.time()
+            model.train()
+            toc = time.time()
+            record.append(tsp.value(sa.getOptimal()))
+        records.append(record)
+    with open("data/tsp_SA.csv", "w+") as f:
+        writer = csv.writer(f)
+        writer.writerows(records)
+
+
+def ga_analysis():
+    print("GA")
+    params = [(100, 100), (100, 50), (100, 25), (50, 100), (50, 50), (50, 25)]
+    records = []
+    for iterations in num_iterations:
+        print("Iteration: ", iterations)
+        record = [iterations]
+        for to_mate, to_mutate in params:
+            tsp = TravelingSalesmanRouteEvaluationFunction(points)
+
+            perm = DiscretePermutationDistribution(N)
+            mutation = SwapMutation()
+            tspx = TravelingSalesmanCrossOver(tsp)
+            ggap = GenericGeneticAlgorithmProblem(tsp, perm, mutation, tspx)
+            ga = StandardGeneticAlgorithm(200, to_mate, to_mutate, ggap)
+            model = FixedIterationTrainer(ga, iterations)
+            model.train()
+            record.append(tsp.value(ga.getOptimal()))
+
+        records.append(record)
+    with open("data/tsp_GA.csv", "w+") as f:
+        writer = csv.writer(f)
+        writer.writerows(records)
+
+ga_analysis()
+sa_analysis()
+mimic_analysis()
+# perform_comparsion()
