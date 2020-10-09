@@ -57,4 +57,5 @@ def plotter(problem):
 
 
 # plotter("cp")
-plotter("tsp")
+# plotter("tsp")
+plotter("knapsack")
