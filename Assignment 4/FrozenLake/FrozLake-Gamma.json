@@ -1,0 +1,1666 @@
+{
+    "0.4": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.075,
+            "Error": 0.225,
+            "Time": 0.0,
+            "Max V": 1.075,
+            "Mean V": 0.09531250000000001,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.13125,
+            "Error": 0.0675,
+            "Time": 0.0,
+            "Max V": 1.13125,
+            "Mean V": 0.1083203125,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.139265625,
+            "Error": 0.017718750000000033,
+            "Time": 0.0,
+            "Max V": 1.139265625,
+            "Mean V": 0.11325097656250001,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.143853515625,
+            "Error": 0.005315625000000004,
+            "Time": 0.0,
+            "Max V": 1.143853515625,
+            "Mean V": 0.115287841796875,
+            "Iteration": 5
+        }
+    ],
+    "0.45": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.084375,
+            "Error": 0.253125,
+            "Time": 0.0,
+            "Max V": 1.084375,
+            "Mean V": 0.09941406250000001,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.15556640625,
+            "Error": 0.08542968749999999,
+            "Time": 0.0,
+            "Max V": 1.15556640625,
+            "Mean V": 0.11587707519531248,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.166979278564453,
+            "Error": 0.02522845458984374,
+            "Time": 0.0,
+            "Max V": 1.166979278564453,
+            "Mean V": 0.12289749336242675,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.1743281922340394,
+            "Error": 0.008514603424072259,
+            "Time": 0.0,
+            "Max V": 1.1743281922340394,
+            "Mean V": 0.12616015762090685,
+            "Iteration": 5
+        }
+    ],
+    "0.5": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.09375,
+            "Error": 0.28125,
+            "Time": 0.0,
+            "Max V": 1.09375,
+            "Mean V": 0.103515625,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.181640625,
+            "Error": 0.10546875,
+            "Time": 0.0,
+            "Max V": 1.181640625,
+            "Mean V": 0.12384033203125,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.197296142578125,
+            "Error": 0.03460693359375,
+            "Time": 0.0010075569152832031,
+            "Max V": 1.197296142578125,
+            "Mean V": 0.1334705352783203,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.2084970474243164,
+            "Error": 0.01297760009765625,
+            "Time": 0.0010075569152832031,
+            "Max V": 1.2084970474243164,
+            "Mean V": 0.13844335079193115,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.2110462188720703,
+            "Error": 0.005243182182312012,
+            "Time": 0.0010075569152832031,
+            "Max V": 1.2110462188720703,
+            "Mean V": 0.14060326665639877,
+            "Iteration": 6
+        }
+    ],
+    "0.55": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.103125,
+            "Error": 0.309375,
+            "Time": 0.0,
+            "Max V": 1.103125,
+            "Mean V": 0.10761718749999999,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.20947265625,
+            "Error": 0.12761718750000003,
+            "Time": 0.0,
+            "Max V": 1.20947265625,
+            "Mean V": 0.1322100830078125,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.2303101501464844,
+            "Error": 0.046061828613281286,
+            "Time": 0.0,
+            "Max V": 1.2303101501464844,
+            "Mean V": 0.1450278835296631,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.2467093949317933,
+            "Error": 0.019000504302978533,
+            "Time": 0.0,
+            "Max V": 1.2467093949317933,
+            "Mean V": 0.15230858272314074,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.2508148610401153,
+            "Error": 0.008444197336435325,
+            "Time": 0.0,
+            "Max V": 1.2508148610401153,
+            "Mean V": 0.15578714882202446,
+            "Iteration": 6
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.253414054085062,
+            "Error": 0.0033930234057353847,
+            "Time": 0.0,
+            "Max V": 1.253414054085062,
+            "Mean V": 0.15756810523183215,
+            "Iteration": 7
+        }
+    ],
+    "0.6": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.1125,
+            "Error": 0.33749999999999997,
+            "Time": 0.0,
+            "Max V": 1.1125,
+            "Mean V": 0.11171874999999999,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.2390625,
+            "Error": 0.15187499999999998,
+            "Time": 0.0,
+            "Max V": 1.2390625,
+            "Mean V": 0.140986328125,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.266115234375,
+            "Error": 0.05980078124999999,
+            "Time": 0.0,
+            "Max V": 1.266115234375,
+            "Mean V": 0.1576273193359375,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.2893414306640625,
+            "Error": 0.02691035156249999,
+            "Time": 0.0,
+            "Max V": 1.2893414306640625,
+            "Mean V": 0.16793894958496092,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.2956845849609375,
+            "Error": 0.013046715087890626,
+            "Time": 0.0,
+            "Max V": 1.2956845849609375,
+            "Mean V": 0.173313511428833,
+            "Iteration": 6
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.3000655511512758,
+            "Error": 0.0057189752998351995,
+            "Time": 0.0,
+            "Max V": 1.3000655511512758,
+            "Mean V": 0.17631533148717882,
+            "Iteration": 7
+        }
+    ],
+    "0.65": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.121875,
+            "Error": 0.36562500000000003,
+            "Time": 0.0,
+            "Max V": 1.121875,
+            "Mean V": 0.11582031250000001,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.27041015625,
+            "Error": 0.1782421875,
+            "Time": 0.0,
+            "Max V": 1.27041015625,
+            "Mean V": 0.1501690673828125,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.3048053283691405,
+            "Error": 0.07603143310546884,
+            "Time": 0.0,
+            "Max V": 1.3048053283691405,
+            "Mean V": 0.17132662391662598,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.336796232700348,
+            "Error": 0.03706532363891607,
+            "Time": 0.0,
+            "Max V": 1.336796232700348,
+            "Mean V": 0.1855294823050499,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.3462611278438568,
+            "Error": 0.019467568420171763,
+            "Time": 0.0010020732879638672,
+            "Max V": 1.3462611278438568,
+            "Mean V": 0.19354909871570763,
+            "Iteration": 6
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.3533429096069942,
+            "Error": 0.009244658192415739,
+            "Time": 0.0010020732879638672,
+            "Max V": 1.3533429096069942,
+            "Mean V": 0.1984015065229846,
+            "Iteration": 7
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.3558019833609127,
+            "Error": 0.005403545315578476,
+            "Time": 0.0010020732879638672,
+            "Max V": 1.3558019833609127,
+            "Mean V": 0.2010376147934414,
+            "Iteration": 8
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.357407617835405,
+            "Error": 0.0033522840181837293,
+            "Time": 0.0010020732879638672,
+            "Max V": 1.357407617835405,
+            "Mean V": 0.20253195453662992,
+            "Iteration": 9
+        }
+    ],
+    "0.7": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.13125,
+            "Error": 0.39375,
+            "Time": 0.0,
+            "Max V": 1.13125,
+            "Mean V": 0.11992187500000001,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.303515625,
+            "Error": 0.20671874999999998,
+            "Time": 0.0,
+            "Max V": 1.303515625,
+            "Mean V": 0.15975830078124997,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.346474365234375,
+            "Error": 0.09496142578125,
+            "Time": 0.0,
+            "Max V": 1.346474365234375,
+            "Mean V": 0.18618357849121092,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.3895037612915038,
+            "Error": 0.049854748535156174,
+            "Time": 0.0,
+            "Max V": 1.3895037612915038,
+            "Mean V": 0.20528714656829833,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.4032138171386719,
+            "Error": 0.028199092140197723,
+            "Time": 0.0,
+            "Max V": 1.4032138171386719,
+            "Mean V": 0.21690369246721264,
+            "Iteration": 6
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.414260977017939,
+            "Error": 0.014421118935406235,
+            "Time": 0.0,
+            "Max V": 1.414260977017939,
+            "Mean V": 0.22447316108956186,
+            "Iteration": 7
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.4183920639884087,
+            "Error": 0.00907761128024609,
+            "Time": 0.0,
+            "Max V": 1.4183920639884087,
+            "Mean V": 0.22890165474961494,
+            "Iteration": 8
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.4212969169311631,
+            "Error": 0.006064824995893774,
+            "Time": 0.0009975433349609375,
+            "Max V": 1.4212969169311631,
+            "Mean V": 0.23160515748914637,
+            "Iteration": 9
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.422507290120084,
+            "Error": 0.0035460042757145815,
+            "Time": 0.0009975433349609375,
+            "Max V": 1.422507290120084,
+            "Mean V": 0.23315236436562295,
+            "Iteration": 10
+        }
+    ],
+    "0.75": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.140625,
+            "Error": 0.421875,
+            "Time": 0.0,
+            "Max V": 1.140625,
+            "Mean V": 0.1240234375,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.33837890625,
+            "Error": 0.2373046875,
+            "Time": 0.0,
+            "Max V": 1.33837890625,
+            "Mean V": 0.1697540283203125,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.3912162780761719,
+            "Error": 0.11679840087890625,
+            "Time": 0.0,
+            "Max V": 1.3912162780761719,
+            "Mean V": 0.2022559642791748,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.4479208588600159,
+            "Error": 0.06569910049438477,
+            "Time": 0.0,
+            "Max V": 1.4479208588600159,
+            "Mean V": 0.22743084281682968,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.467278629541397,
+            "Error": 0.03981541469693184,
+            "Time": 0.0,
+            "Max V": 1.467278629541397,
+            "Mean V": 0.24383270391263068,
+            "Iteration": 6
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.4839906892884756,
+            "Error": 0.02181615943845827,
+            "Time": 0.0,
+            "Max V": 1.4839906892884756,
+            "Mean V": 0.25528373868110066,
+            "Iteration": 7
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.4906865575696884,
+            "Error": 0.014713437377395167,
+            "Time": 0.0,
+            "Max V": 1.4906865575696884,
+            "Mean V": 0.26246165830464463,
+            "Iteration": 8
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.495731194771544,
+            "Error": 0.010532320361807734,
+            "Time": 0.0,
+            "Max V": 1.495731194771544,
+            "Mean V": 0.267156625920536,
+            "Iteration": 9
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.4979832980635988,
+            "Error": 0.006597938533402348,
+            "Time": 0.0,
+            "Max V": 1.4979832980635988,
+            "Mean V": 0.27003546505205195,
+            "Iteration": 10
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.4995342001518026,
+            "Error": 0.004491874147001321,
+            "Time": 0.0,
+            "Max V": 1.4995342001518026,
+            "Mean V": 0.27184602291497767,
+            "Iteration": 11
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.5002802031758746,
+            "Error": 0.0027312979036777374,
+            "Time": 0.0,
+            "Max V": 1.5002802031758746,
+            "Mean V": 0.2729406170221331,
+            "Iteration": 12
+        }
+    ],
+    "0.8": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.15,
+            "Error": 0.45,
+            "Time": 0.0,
+            "Max V": 1.15,
+            "Mean V": 0.128125,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.375,
+            "Error": 0.27,
+            "Time": 0.0,
+            "Max V": 1.375,
+            "Mean V": 0.18015625000000002,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.439125,
+            "Error": 0.14175000000000015,
+            "Time": 0.0,
+            "Max V": 1.439125,
+            "Mean V": 0.2196015625,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.51253125,
+            "Error": 0.08505000000000007,
+            "Time": 0.0,
+            "Max V": 1.51253125,
+            "Mean V": 0.25219140625,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.53926125,
+            "Error": 0.05497875000000002,
+            "Time": 0.0,
+            "Max V": 1.53926125,
+            "Mean V": 0.274839765625,
+            "Iteration": 6
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.563876390625,
+            "Error": 0.03213295312500003,
+            "Time": 0.0,
+            "Max V": 1.563876390625,
+            "Mean V": 0.291705958984375,
+            "Iteration": 7
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.57439620234375,
+            "Error": 0.023116134375000014,
+            "Time": 0.0,
+            "Max V": 1.57439620234375,
+            "Mean V": 0.3029831167480469,
+            "Iteration": 8
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.582850153359375,
+            "Error": 0.017650371445312535,
+            "Time": 0.0,
+            "Max V": 1.582850153359375,
+            "Mean V": 0.3108510812133789,
+            "Iteration": 9
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.5868759035097657,
+            "Error": 0.011794153552734388,
+            "Time": 0.0,
+            "Max V": 1.5868759035097657,
+            "Mean V": 0.31599715382360843,
+            "Iteration": 10
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.5898330416774415,
+            "Error": 0.008564752466015624,
+            "Time": 0.0009617805480957031,
+            "Max V": 1.5898330416774415,
+            "Mean V": 0.3194493832080201,
+            "Iteration": 11
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.5913502895862306,
+            "Error": 0.0055550123778515675,
+            "Time": 0.0009617805480957031,
+            "Max V": 1.5913502895862306,
+            "Mean V": 0.32167560825867614,
+            "Iteration": 12
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.592399373683095,
+            "Error": 0.003849772027139653,
+            "Time": 0.0009617805480957031,
+            "Max V": 1.592399373683095,
+            "Mean V": 0.3231326296713873,
+            "Iteration": 13
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.592966330628948,
+            "Error": 0.002694609205429646,
+            "Time": 0.0009617805480957031,
+            "Max V": 1.592966330628948,
+            "Mean V": 0.32407793825512743,
+            "Iteration": 14
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.5933425903348635,
+            "Error": 0.0020100458861612297,
+            "Time": 0.0009617805480957031,
+            "Max V": 1.5933425903348635,
+            "Mean V": 0.3247115729613854,
+            "Iteration": 15
+        }
+    ],
+    "0.85": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.159375,
+            "Error": 0.47812499999999997,
+            "Time": 0.0,
+            "Max V": 1.159375,
+            "Mean V": 0.1322265625,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.41337890625,
+            "Error": 0.3048046875,
+            "Time": 0.0,
+            "Max V": 1.41337890625,
+            "Mean V": 0.1909649658203125,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.490294464111328,
+            "Error": 0.17002386474609366,
+            "Time": 0.0,
+            "Max V": 1.490294464111328,
+            "Mean V": 0.2382781543731689,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.5838455414772032,
+            "Error": 0.10839021377563479,
+            "Time": 0.0,
+            "Max V": 1.5838455414772032,
+            "Mean V": 0.279811606824398,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.6200401307201384,
+            "Error": 0.07444568923830985,
+            "Time": 0.0,
+            "Max V": 1.6200401307201384,
+            "Mean V": 0.31047932342015205,
+            "Iteration": 6
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.6554542098665619,
+            "Error": 0.04623004038503481,
+            "Time": 0.0,
+            "Max V": 1.6554542098665619,
+            "Mean V": 0.33474490514594346,
+            "Iteration": 7
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.671535116782531,
+            "Error": 0.03533603215339476,
+            "Time": 0.0,
+            "Max V": 1.671535116782531,
+            "Mean V": 0.3519835144597473,
+            "Iteration": 8
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.6852657712063768,
+            "Error": 0.028667205466435447,
+            "Time": 0.0,
+            "Max V": 1.6852657712063768,
+            "Mean V": 0.36476242705255774,
+            "Iteration": 9
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.6922129306481803,
+            "Error": 0.02035294346421604,
+            "Time": 0.0,
+            "Max V": 1.6922129306481803,
+            "Mean V": 0.37364290537009404,
+            "Iteration": 10
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.6976349492591867,
+            "Error": 0.01570378001846895,
+            "Time": 0.0,
+            "Max V": 1.6976349492591867,
+            "Mean V": 0.37997269143702456,
+            "Iteration": 11
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7005907480934934,
+            "Error": 0.011759563955772823,
+            "Time": 0.0,
+            "Max V": 1.7005907480934934,
+            "Mean V": 0.38436827540212537,
+            "Iteration": 12
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7027622367661284,
+            "Error": 0.009252215348068304,
+            "Time": 0.0,
+            "Max V": 1.7027622367661284,
+            "Mean V": 0.38753358229332124,
+            "Iteration": 13
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7040091214308688,
+            "Error": 0.007226281055853961,
+            "Time": 0.0,
+            "Max V": 1.7040091214308688,
+            "Mean V": 0.38975071170348874,
+            "Iteration": 14
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7048883319061803,
+            "Error": 0.0053047695948633955,
+            "Time": 0.0,
+            "Max V": 1.7048883319061803,
+            "Mean V": 0.3913139820573554,
+            "Iteration": 15
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7054118489028425,
+            "Error": 0.003930924999724389,
+            "Time": 0.0,
+            "Max V": 1.7054118489028425,
+            "Mean V": 0.3923968090160356,
+            "Iteration": 16
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7057708593358298,
+            "Error": 0.0028055776354041218,
+            "Time": 0.0,
+            "Max V": 1.7057708593358298,
+            "Mean V": 0.3931485354530193,
+            "Iteration": 17
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.705990135766517,
+            "Error": 0.00200990764536943,
+            "Time": 0.0,
+            "Max V": 1.705990135766517,
+            "Mean V": 0.39366406446816005,
+            "Iteration": 18
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.706137703370147,
+            "Error": 0.001407446438085297,
+            "Time": 0.0,
+            "Max V": 1.706137703370147,
+            "Mean V": 0.3940176496926526,
+            "Iteration": 19
+        }
+    ],
+    "0.9": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.16875,
+            "Error": 0.50625,
+            "Time": 0.0,
+            "Max V": 1.16875,
+            "Mean V": 0.136328125,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.453515625,
+            "Error": 0.34171874999999996,
+            "Time": 0.0,
+            "Max V": 1.453515625,
+            "Mean V": 0.20218017578125003,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.544818603515625,
+            "Error": 0.20182763671875004,
+            "Time": 0.0,
+            "Max V": 1.544818603515625,
+            "Mean V": 0.25834352111816405,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.6624012222290039,
+            "Error": 0.1362336547851563,
+            "Time": 0.0,
+            "Max V": 1.6624012222290039,
+            "Mean V": 0.3105461492538452,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7105695501708986,
+            "Error": 0.09907349269866947,
+            "Time": 0.0,
+            "Max V": 1.7105695501708986,
+            "Mean V": 0.3513592282557488,
+            "Iteration": 6
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7604714931827188,
+            "Error": 0.06514270302468544,
+            "Time": 0.0,
+            "Max V": 1.7604714931827188,
+            "Mean V": 0.38555183485784383,
+            "Iteration": 7
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7844639998472895,
+            "Error": 0.05272090631268478,
+            "Time": 0.0,
+            "Max V": 1.7844639998472895,
+            "Mean V": 0.4112716186368698,
+            "Iteration": 8
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.806155016444875,
+            "Error": 0.04528704971985423,
+            "Time": 0.0,
+            "Max V": 1.806155016444875,
+            "Mean V": 0.4314591200183304,
+            "Iteration": 9
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8177753747618937,
+            "Error": 0.034043913608353155,
+            "Time": 0.0,
+            "Max V": 1.8177753747618937,
+            "Mean V": 0.44631329760569516,
+            "Iteration": 10
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8273781517090024,
+            "Error": 0.027812500760824976,
+            "Time": 0.0,
+            "Max V": 1.8273781517090024,
+            "Mean V": 0.457626685255512,
+            "Iteration": 11
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8329210166234433,
+            "Error": 0.024424651607594744,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8329210166234433,
+            "Mean V": 0.46606409183219705,
+            "Iteration": 12
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.837232637568191,
+            "Error": 0.019258624402813618,
+            "Time": 0.00095367431640625,
+            "Max V": 1.837232637568191,
+            "Mean V": 0.4724790259779301,
+            "Iteration": 13
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8398540350148243,
+            "Error": 0.015809632775063698,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8398540350148243,
+            "Mean V": 0.47731222643043525,
+            "Iteration": 14
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8418111801199641,
+            "Error": 0.012166689380910423,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8418111801199641,
+            "Mean V": 0.4809975897747148,
+            "Iteration": 15
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.843045093126371,
+            "Error": 0.009482381190883737,
+            "Time": 0.00095367431640625,
+            "Max V": 1.843045093126371,
+            "Mean V": 0.4837842883172703,
+            "Iteration": 16
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8439410444370623,
+            "Error": 0.007211735468364011,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8439410444370623,
+            "Mean V": 0.48590289650755325,
+            "Iteration": 17
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.844520463629649,
+            "Error": 0.005561762817247795,
+            "Time": 0.00095367431640625,
+            "Max V": 1.844520463629649,
+            "Mean V": 0.4875103804888,
+            "Iteration": 18
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.844933335725448,
+            "Error": 0.004249875207813392,
+            "Time": 0.00095367431640625,
+            "Max V": 1.844933335725448,
+            "Mean V": 0.48873588114215405,
+            "Iteration": 19
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8452053354004496,
+            "Error": 0.0032772976832750045,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8452053354004496,
+            "Mean V": 0.48969385621074113,
+            "Iteration": 20
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8453969322610577,
+            "Error": 0.0025180916872611925,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8453969322610577,
+            "Mean V": 0.4904761406101751,
+            "Iteration": 21
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8455249910863762,
+            "Error": 0.0019458722045594956,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8455249910863762,
+            "Mean V": 0.4910933432819994,
+            "Iteration": 22
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8456146396730966,
+            "Error": 0.0015016670239818009,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8456146396730966,
+            "Mean V": 0.4915747895805037,
+            "Iteration": 23
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8456752732801038,
+            "Error": 0.0011838300602561302,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8456752732801038,
+            "Mean V": 0.4919483117956678,
+            "Iteration": 24
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8457176279219163,
+            "Error": 0.0009334145355932022,
+            "Time": 0.00095367431640625,
+            "Max V": 1.8457176279219163,
+            "Mean V": 0.49223758060808165,
+            "Iteration": 25
+        }
+    ],
+    "0.95": [
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.0,
+            "Error": 1.0,
+            "Time": 0.0,
+            "Max V": 1.0,
+            "Mean V": 0.0625,
+            "Iteration": 1
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.178125,
+            "Error": 0.5343749999999999,
+            "Time": 0.0,
+            "Max V": 1.178125,
+            "Mean V": 0.14042968749999998,
+            "Iteration": 2
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.49541015625,
+            "Error": 0.38074218749999994,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.49541015625,
+            "Mean V": 0.21380187988281252,
+            "Iteration": 3
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.6027913513183594,
+            "Error": 0.23736895751953124,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.6027913513183594,
+            "Mean V": 0.2798554439544677,
+            "Iteration": 4
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.7487626633644102,
+            "Error": 0.169125382232666,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.7487626633644102,
+            "Mean V": 0.34466167300939554,
+            "Iteration": 5
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8118826720905303,
+            "Error": 0.1298263815844059,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.8118826720905303,
+            "Mean V": 0.39814332813031966,
+            "Iteration": 6
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.8809072931386241,
+            "Error": 0.09010571771248144,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.8809072931386241,
+            "Mean V": 0.44543871526178097,
+            "Iteration": 7
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.915937547841608,
+            "Error": 0.07697514903820651,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.915937547841608,
+            "Mean V": 0.48299088058077194,
+            "Iteration": 8
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.9493669548950938,
+            "Error": 0.06979475639260635,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.9493669548950938,
+            "Mean V": 0.5141031245845302,
+            "Iteration": 9
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.9682707665881547,
+            "Error": 0.05538209017226281,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.9682707665881547,
+            "Mean V": 0.5382676613661179,
+            "Iteration": 10
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.9847602784600435,
+            "Error": 0.04800329853162416,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.9847602784600435,
+            "Mean V": 0.5579449542204724,
+            "Iteration": 11
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 1.9948070458862963,
+            "Error": 0.04544215468820917,
+            "Time": 0.0010004043579101562,
+            "Max V": 1.9948070458862963,
+            "Mean V": 0.573817235442368,
+            "Iteration": 12
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0030562817866944,
+            "Error": 0.03781476492194036,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.0030562817866944,
+            "Mean V": 0.587304517288253,
+            "Iteration": 13
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0083886769852013,
+            "Error": 0.03250567995578374,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.0083886769852013,
+            "Mean V": 0.5987351308876869,
+            "Iteration": 14
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0133648529784365,
+            "Error": 0.02667097848503952,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.0133648529784365,
+            "Mean V": 0.608786244718465,
+            "Iteration": 15
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.016883102463548,
+            "Error": 0.02232120784051761,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.016883102463548,
+            "Mean V": 0.6173500793504405,
+            "Iteration": 16
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0201041525044365,
+            "Error": 0.019271042201988275,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.0201041525044365,
+            "Mean V": 0.6246326268235679,
+            "Iteration": 17
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.022595237267386,
+            "Error": 0.016165587624666466,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.022595237267386,
+            "Mean V": 0.6307889344633739,
+            "Iteration": 18
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.024878741058647,
+            "Error": 0.013718082329265746,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.024878741058647,
+            "Mean V": 0.6359962503624592,
+            "Iteration": 19
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.026767459139176,
+            "Error": 0.011441204624803913,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.026767459139176,
+            "Mean V": 0.6404150717113933,
+            "Iteration": 20
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.028676018505845,
+            "Error": 0.009624269646309025,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.028676018505845,
+            "Mean V": 0.6442242657985822,
+            "Iteration": 21
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.030842736461767,
+            "Error": 0.008026017165723709,
+            "Time": 0.0010004043579101562,
+            "Max V": 2.030842736461767,
+            "Mean V": 0.6475260351176015,
+            "Iteration": 22
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0331129460786967,
+            "Error": 0.006743303591769667,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0331129460786967,
+            "Mean V": 0.6504060385106416,
+            "Iteration": 23
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.035368881597045,
+            "Error": 0.005660203035035338,
+            "Time": 0.001994609832763672,
+            "Max V": 2.035368881597045,
+            "Mean V": 0.6529262132820908,
+            "Iteration": 24
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.037549092043254,
+            "Error": 0.004780390226348574,
+            "Time": 0.001994609832763672,
+            "Max V": 2.037549092043254,
+            "Mean V": 0.655140006201568,
+            "Iteration": 25
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.039614979026034,
+            "Error": 0.0040455854368411925,
+            "Time": 0.001994609832763672,
+            "Max V": 2.039614979026034,
+            "Mean V": 0.6570910887737661,
+            "Iteration": 26
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0415479981678457,
+            "Error": 0.0034461804469240187,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0415479981678457,
+            "Mean V": 0.6588165643560397,
+            "Iteration": 27
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0433390532059907,
+            "Error": 0.0029798820411985893,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0433390532059907,
+            "Mean V": 0.6603471138652222,
+            "Iteration": 28
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.044986955398212,
+            "Error": 0.002638413991598476,
+            "Time": 0.001994609832763672,
+            "Max V": 2.044986955398212,
+            "Mean V": 0.661708319842424,
+            "Iteration": 29
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.046494505322711,
+            "Error": 0.0023414798273906356,
+            "Time": 0.001994609832763672,
+            "Max V": 2.046494505322711,
+            "Mean V": 0.66292145316142,
+            "Iteration": 30
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0478676498247665,
+            "Error": 0.002081707451082715,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0478676498247665,
+            "Mean V": 0.6640044358154362,
+            "Iteration": 31
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.049113987283623,
+            "Error": 0.0018542144254156678,
+            "Time": 0.001994609832763672,
+            "Max V": 2.049113987283623,
+            "Mean V": 0.6649724702419775,
+            "Iteration": 32
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0502421842496017,
+            "Error": 0.0016540429987372818,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0502421842496017,
+            "Mean V": 0.6658386102820246,
+            "Iteration": 33
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0512612816075,
+            "Error": 0.0014774642024358853,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0512612816075,
+            "Mean V": 0.6666141506593246,
+            "Iteration": 34
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.052180351589966,
+            "Error": 0.0013211254204381628,
+            "Time": 0.001994609832763672,
+            "Max V": 2.052180351589966,
+            "Mean V": 0.6673089501669583,
+            "Iteration": 35
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0530081893534966,
+            "Error": 0.0011823673013326985,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0530081893534966,
+            "Mean V": 0.6679316647825811,
+            "Iteration": 36
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0537531598201353,
+            "Error": 0.0010588943323930344,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0537531598201353,
+            "Mean V": 0.668489937311507,
+            "Iteration": 37
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0544230882706787,
+            "Error": 0.0009488201725783574,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0544230882706787,
+            "Mean V": 0.6689905422030475,
+            "Iteration": 38
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.055025219751885,
+            "Error": 0.0008505258667018678,
+            "Time": 0.001994609832763672,
+            "Max V": 2.055025219751885,
+            "Mean V": 0.6694395044062683,
+            "Iteration": 39
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.055566204638474,
+            "Error": 0.0007626438459843454,
+            "Time": 0.001994609832763672,
+            "Max V": 2.055566204638474,
+            "Mean V": 0.6698421947875348,
+            "Iteration": 40
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0560521124827975,
+            "Error": 0.000683991110908555,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0560521124827975,
+            "Mean V": 0.6702034101215006,
+            "Iteration": 41
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.056488457270713,
+            "Error": 0.0006135467999295319,
+            "Time": 0.001994609832763672,
+            "Max V": 2.056488457270713,
+            "Mean V": 0.6705274399765155,
+            "Iteration": 42
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0568802323953626,
+            "Error": 0.0005504179315708457,
+            "Time": 0.001994609832763672,
+            "Max V": 2.0568802323953626,
+            "Mean V": 0.6708181241056571,
+            "Iteration": 43
+        },
+        {
+            "State": null,
+            "Action": null,
+            "Reward": 2.0572319486525297,
+            "Error": 0.000493821862613486,
+            "Time": 0.0029573440551757812,
+            "Max V": 2.0572319486525297,
+            "Mean V": 0.6710789018874719,
+            "Iteration": 44
+        }
+    ]
+}
